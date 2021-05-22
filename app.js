@@ -25,7 +25,7 @@ function checkYuGiOh(n){
         else if(i%3==0 && i%5==0){
             arr.push("gi-oh");
         }
-        else if(i%2==0 && i%3==0 & i%5==0){
+        else if(i%2==0 && i%3==0 && i%5==0){
             arr.push("yu-gi-oh");
         }
         if(i%2==0){
